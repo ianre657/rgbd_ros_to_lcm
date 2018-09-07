@@ -440,7 +440,7 @@ public:
     if (depth_msg->encoding == sensor_msgs::image_encodings::TYPE_16UC1)
     {
       if (debug_print_statements_)
-        ROS_ERROR("Depth image format is 16UC1");
+        ROS_WARN("Depth image format is 16UC1");
     }
     else if (depth_msg->encoding == sensor_msgs::image_encodings::TYPE_32FC1)
     {
